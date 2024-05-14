@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Skaggs Milk",
+    "description": "Milk of the Skaggs will make you strong!",
+    "ingredients": [
+      "milk",
+      "juice",
+      "other things"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Crazy Beer",
+    "description": "Mmmm, beer tastes good!",
+    "ingredients": [
+      "beer",
+      "juice",
+      "other things"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Nasty Wine",
+    "description": "Wine sucks!",
+    "ingredients": [
+      "wine",
+      "juice",
+      "other things"
+    ]
+  }
+]
