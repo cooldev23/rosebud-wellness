@@ -11,7 +11,7 @@
         <NuxtLink to="/blog" class="menu-item">Blog</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/projects" class="menu-item">Projects</NuxtLink>
+        <NuxtLink to="/products" class="menu-item">Products</NuxtLink>
       </li>
     </ul>
   </nav>
