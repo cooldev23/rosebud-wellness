@@ -1,17 +1,18 @@
 <template>
   <div class="container">
-    <header class="flex justify-between items-center mt-4">
-      <div class="mx-auto">
-        <div>
-          <NuxtLink to="/" class="text-2xl p-2 font-semibold hover:bg-blue-200">Rosebud Wellness</NuxtLink>
-        </div>
-        <div class="flex items-center">
-          <Menu />
+    <div class="mx-auto">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center justify-between">
+            <NuxtLink to="/" class="me-4 p-2 text-2xl font-semibold hover:bg-blue-200">Rosebud Wellness</NuxtLink>
+            <Menu />
+          </div>
           <ClientOnly>
             <ColorModeSelector />
           </ClientOnly>
         </div>
       </div>
+    <header class="flex justify-between items-center mt-4 h-96">
+      
     </header>
     <main class="mt-10 p-2">
       <slot />
@@ -48,5 +49,8 @@ body {
 
 header {
   background-image: url('~/public/img/header-image.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 </style>
