@@ -1,32 +1,86 @@
 [
   {
     "id": 1,
-    "name": "Skaggs Milk",
-    "description": "Milk of the Skaggs will make you strong!",
+    "name": "Magnesium Lotion",
+    "description": "Vital for more than 300 biochemical reactions, magnesium is indispensable to our bodies. Insufficient magnesium levels can trigger migraines, sleep disturbances, fatigue, leg cramps, and muscle soreness. Opting for skin absorption bypasses digestive issues and increases absorption levels. Overall, magnesium is involved in a wide range of physiological processes and is essential for overall health and well-being. Maintaining adequate magnesium levels through diet and supplementation is important for supporting optimal body function.",
+    "sizes": [
+      "4oz",
+      "8oz"
+    ],
+    "scents": [
+      "Lavender",
+      "Frankincense",
+      "Vanilla"
+    ],
     "ingredients": [
-      "milk",
-      "juice",
-      "other things"
-    ]
+      "magnesium chloride",
+      "shea butter",
+      "virgin coconut oil",
+      "essential oils"
+    ],
+    "benefits": [
+      {
+        "Muscle Function": "Magnesium is crucial for muscle contraction and relaxation. It works in conjunction with calcium to regulate muscle contractions, including the heartbeat. This is why magnesium deficiency can lead to muscle cramps, spasms, and irregular heart hythms."
+      },
+      {
+        "Energy Production": "Magnesium is involved in the biochemical reactions that produce energy in the body. It helps activate enzymes that are important for ATP (adenosine triphosphate) production, which is the primary energy currency of cells."
+      },
+      {
+        "Nerve Function": "Magnesium plays a role in regulating neurotransmitters, which are chemicals that transmit signals between nerve cells. It helps maintain the proper functioning of the nervous system and may contribute to mood regulation and stress management."
+      },
+      {
+        "Heart Health": "Magnesium is important for maintaining a healthy heart rhythm and blood pressure. It helps relax blood vessels, which can improve blood flow and reduce the risk of hypertension and cardiovascular disease."
+      },
+      {
+        "DNA and RNA Synthesis": "Magnesium is involved in the synthesis of DNA (deoxyribonucleic acid) and RNA (ribonucleic acid), which are essential for cell growth, repair, and reproduction."
+      },
+      {
+        "Regulation of Blood Sugar Levels": "Magnesium plays a role in insulin metabolism and glucose regulation. It helps insulin transport glucose into cells, where it can be used for energy production. Magnesium deficiency has been associated with insulin resistance and an increased risk of type 2 diabetes."
+      },
+      {
+        "Supporting Enzyme Function": "Magnesium is a cofactor for hundreds of enzymes involved in various biochemical reactions throughout the body. These enzymes are essential for processes such as protein synthesis, muscle contraction, and nerve function."
+      }
+    ],
+    "directions": "Massage a grape-sized amount onto the soles of the feet, stomach, or back of legs, 1–2 times daily. Apply directly to the affected area for targeted relief from muscle cramps or pain."
   },
   {
     "id": 2,
-    "name": "Crazy Beer",
-    "description": "Mmmm, beer tastes good!",
+    "name": "Tallow Moisturizer",
+    "description": "Tallow offers deep nourishment for your skin, crafted from 100% natural ingredients you can trust. When using Rosebud Tallow, feel confident in choosing a non-toxic alternative to conventional skincare products.",
+    "sizes": [
+      "2oz",
+      "4oz",
+      "8oz"
+    ],
+    "scents": [
+      "Frankincense",
+      "Vanilla"
+    ],
     "ingredients": [
-      "beer",
-      "juice",
-      "other things"
-    ]
-  },
-  {
-    "id": 3,
-    "name": "Nasty Wine",
-    "description": "Wine sucks!",
-    "ingredients": [
-      "wine",
-      "juice",
-      "other things"
-    ]
+      "tallow from locally sourced 100% grass-fed cows",
+      "organic jojoba oil infused with organic Madagascar vanilla beans",
+      "frankincense essential oil"
+    ],
+    "benefits": [
+      {
+        "Rich in Nutrients": "Tallow contains a variety of nutrients that can nourish the skin, including vitamins A, D, E, and K, as well as essential fatty acids. These nutrients help support skin health, hydration, and elasticity."
+      },
+      {
+        "Moisturizing:": "Tallow is an excellent natural moisturizer that helps hydrate the skin and prevent moisture loss. Its fatty acid composition closely resembles that of human skin, making it well-suited for moisturizing without clogging pores or causing irritation."
+      },
+      {
+        "Emollient Properties": "Tallow has emollient properties, which means it helps soften and smooth the skin&#39;s surface. Regular use of tallow moisturizer can leave the skin feeling soft, supple, and more youthful."
+      },
+      {
+        "Protective Barrier": "Tallow forms a protective barrier on the skin, which helps shield it from environmental pollutants, harsh weather conditions, and other external stressors. This barrier function can help prevent moisture loss and support the skin&#39;s natural defense mechanisms."
+      },
+      {
+        "Anti-inflammatory": "Some research suggests that tallow may have anti-inflammatory properties, which can help soothe irritated or inflamed skin conditions such as eczema,dermatitis, or acne."
+      },
+      {
+        "Hypoallergenic": "Tallow is generally well-tolerated by most skin types, including sensitive and allergy-prone skin. It is less likely to cause allergic reactions or irritation compared to synthetic ingredients found in many commercial skincare products."
+      }
+    ],
+    "directions": "A little goes a long way. Rub in well. Keep at room temperature. Keep tightly capped."
   }
 ]
