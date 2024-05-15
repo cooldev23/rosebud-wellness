@@ -1,23 +1,21 @@
 <template>
-  <div class="container">
-    <div class="mx-auto">
-        <div class="flex items-center justify-between">
-          <div class="flex items-center justify-between">
-            <NuxtLink to="/" class="me-4 p-2 text-2xl font-semibold hover:bg-blue-200">Rosebud Wellness</NuxtLink>
-            <Menu />
-          </div>
-          <ClientOnly>
-            <ColorModeSelector />
-          </ClientOnly>
-        </div>
+  <div class="mx-auto max-w-7xl">
+    <div class="flex items-center justify-between">
+      <div class="flex items-center justify-between">
+        <NuxtLink to="/" class="me-4 p-2 text-2xl font-semibold hover:bg-blue-200">Rosebud Wellness</NuxtLink>
+        <Menu />
       </div>
-    <header class="flex justify-between items-center mt-4 h-96">
-      
-    </header>
-    <main class="mt-10 p-2">
-      <slot />
-    </main>
+      <ClientOnly>
+        <ColorModeSelector />
+      </ClientOnly>
+    </div>
   </div>
+  <header class="flex justify-center items-center">
+    <p class="text-5xl text-white">Here is Some Grand Text</p>
+  </header>
+  <main class="mt-10 p-2 max-w-7xl mx-auto">
+    <slot />
+  </main>
 </template>
 
 <script setup>
@@ -52,5 +50,6 @@ header {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 40rem;
 }
 </style>
